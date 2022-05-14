@@ -1,0 +1,134 @@
+body{
+    background: black;
+}
+
+h1 {
+    position: absolute;
+    width: 354px;
+    height: 80px;
+    left: 52px;
+    top: 118px;
+
+    font-family: 'karla';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    /* or 100% */
+    letter-spacing: -0.025em;
+    /* white */
+    color: #FFFFFF;
+
+}
+
+p{
+    position: absolute;
+    width: 372px;
+    height: 28px;
+    left: 52px;
+    top: 208px;
+    /* text-xl/leading-7/font-normal */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    /* identical to box height, or 140% */
+    /* Medium grey */
+
+    color: #D5D4D8;
+
+}
+
+.title{
+    position: absolute;
+    width: 550px;
+    height: 550px;
+    margin-left: 64px;
+    margin-top: 62px;
+    background: #1F2937 ;
+}
+
+#generate-password{
+    /* Button */
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 17px 9px 15px;
+    color: white;
+    position: absolute;
+    width: 223px;
+    height: 42px;
+    left: 52px;
+    top: 307px;
+    background: #10B981;
+    /* shadow/sm */
+    border: none;
+    box-shadow: 0px 1px 2px #1F2937; /*edited*/
+    border-radius: 6px;
+}
+
+hr{
+    position: absolute;
+    width: 446px;
+    height: 0px;
+    left: 52px;
+    top: 364px;
+    border: 1px solid #2F3E53;
+}
+
+#buttonEl1{
+    position: absolute;
+    width: 211px;
+    font-weight: bold;
+    color: #202B3C;
+    height: 39px;
+    left: 52px;
+    top: 399px;
+    background: #273549;
+    border-radius: 6px;
+    border: none
+    
+}
+
+#buttonEl2{
+    position: absolute;
+    width: 211px;
+    font-weight: bold;
+    color: #202B3C;
+    height: 39px;
+    left: 287px;
+    top: 399px;
+    background: #273549;
+    border-radius: 6px;
+    border: none
+    
+}
+
+#buttonEl3{
+    position: absolute;
+    width: 211px;
+    font-weight: bold;
+    color: #202B3C;
+    height: 39px;
+    left: 52px;
+    top: 465px;
+    background: #273549;
+    border-radius: 6px;
+    border: none
+}
+
+#buttonEl4{
+    position: absolute;
+    width: 211px;
+    font-weight: bold;
+    color: #202B3C;
+    height: 39px;
+    left: 287px;
+    top: 465px;
+    background: #273549;
+    border-radius: 6px;
+    border: none
+}

@@ -1,0 +1,104 @@
+/*first div*/
+body{
+    background: black;
+}
+
+.main{
+    position: absolute;
+    width: 550px;
+    height: 260px;
+    margin-left: 89px;
+    margin-top: 80px;
+    background: linear-gradient(246.26deg, #585DFE 0%, #FB3796 100%);
+}
+.main h3{
+    position: absolute;
+    width: 448.4px;
+    height: 38px;
+    left: 51px;
+    top: 53px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 38px;
+    /* identical to box height, or 173% */
+
+    text-align: center;
+    letter-spacing: -0.05em;
+
+    color: #FFFFFF;
+}
+.main h1{
+        /* number to convert */
+    position: absolute;
+    width: 211px;
+    height: 51.23px;
+    left: 169px;
+    top: 100px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 90px;
+    line-height: 24px;
+    /* or 25% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+
+    /*second div*/
+.results{
+    position: absolute;
+    width: 550px;
+    height: 290px;
+    margin-left: 89px;
+    margin-top: 340px;
+    text-align: center;
+    background: #FBF7EE;
+}
+.results p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+
+    text-align: center;
+
+    color: #4E4E4E;
+}
+/*Divs for length,volume and mass*/
+
+#lengthFt{
+    position: absolute;
+    width: 346px;
+    height: 55px;
+    left: 102px;
+    top: 0px;
+       
+}
+
+
+
+#volumeFt{
+    position: absolute;
+    width: 346px;
+    height: 55px;
+    left: 102px;
+    top: 82px;
+
+}
+#massFt{
+    position: absolute;
+    width: 346px;
+    height: 51px;
+    left: 102px;
+    top: 164px;
+    
+}
